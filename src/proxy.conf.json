@@ -1,0 +1,12 @@
+{
+  "/api/*": {
+    "target": "https://fw4frnfexstjmjdr5rhnkvicnm0pxjdi.lambda-url.eu-north-1.on.aws",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    },
+    "logLevel": "debug"
+  }
+}
+
